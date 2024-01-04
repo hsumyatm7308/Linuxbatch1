@@ -1,0 +1,66 @@
+
+
+Free 
+Not user-friendly 
+Very reliable 
+best for multi-tasking 
+very secure 
+open to public 
+
+=>Linux Kernel  (a thing that  connect between hardware and software)
+
+=> Linux Distribution  (ubuntu is a distrubution of linux )
+distrowatch.com 
+distrowatch.com  > Menu BAr > DistroWatch.com > Page Hit Ranking 
+
+Ubuntu    Free 
+CentOS    Free 
+Redhat    Paid (Not Open Souce )
+Fedora    Free
+SuSe      Free and Paid 
+Debian    Free 
+Linux Mint Free
+Arch Linux Free 
+
+=>Open Terminal (Linux is Case sensitive Operation System)
+ctl+alt+t 
+
+=>Linux Color Coading 
+Blue = Directory (such as url,etc..)
+Green = Executable or recognized data file 
+Skyeblue = Symbolic link file 
+Pink  = Graphic image file 
+Red = Archive file (zip,tar,tar,gz etc...)
+
+
+=>Common Dirctores
+
+/
+/bin
+/etc
+/home 
+/opt 
+/tmp 
+/usr
+/var 
+
+
+=>Basic Line Commands 
+ls - Lists directory contents 
+cd - Changes the current directory 
+pwd - Displays the present working directory 
+cat - Concatenates and display file 
+echo - Display areguments to the screen 
+exit - Exits the shell or your current session 
+clear - Clear the screen 
+
+
+=>APT (Advanced Packing Tool)
+sudo apt-get update  (for package)
+sudo apt update 
+
+sudo apt-get upgrade (for version)
+sudo apt upgrade 
+
+sudo apt-get update -y 
+sudo apt upgrade -y 
