@@ -35,14 +35,14 @@ Red = Archive file (zip,tar,tar,gz etc...)
 
 =>Common Dirctores
 
-/
-/bin
-/etc
-/home 
-/opt 
-/tmp 
-/usr
-/var 
+/          "Root" the top of the file system 
+/bin        Binary or executable programs
+/etc        System configuration files
+/home       home directory. it is the default current directory 
+/opt        Optional or third party software 
+/tmp        Temporary space, typicle cleared on reboot 
+/usr        User related programs 
+/var        Variable data,most notably log files 
 
 
 =>Basic Line Commands 

@@ -1,0 +1,24 @@
+=>History Commands 
+
+
+=>clear History 
+clear 
+ctrl+m+l 
+ctrl+l 
+
+ctrl+m (new line )
+
+
+=>Close Terminal 
+exit 
+ctrl+d 
+
+=>Cursor to start char in Terminal 
+ctrl+a 
+
+=>Cursor to end char in Terminal 
+ctrl + e 
+
+
+
+10CE 

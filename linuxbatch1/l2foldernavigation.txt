@@ -1,0 +1,80 @@
+=>Folder Navigation 
+
+.            = This dirctory 
+..           = The parent directory 
+cd           = Go to next directory 
+cd -         = Change to previous directory 
+/            = Directory sperator (forward slash)
+
+=>Check current directory 
+pwd           /home/hsu-myat-moe
+
+ls 
+ls ..         // hsu-myat-moe 
+ls ../..      // bin dev lib libx32 root snap sys var boot etc ...
+
+
+ctrl+alt+t 
+ls 
+cd Music/
+ls 
+cd folderone/
+ls 
+cd 1/
+ls 
+cd .. 
+ls 
+cd .. 
+ls 
+ 
+
+pwd 
+cd 'folder two' 
+ls 
+cd .. 
+pwd                      // /home/hsu-myat-moe/Music 
+cd folder\ two 
+
+ctrl+alt+t 
+ls 
+cd Music/
+ls 
+cd folderone/
+ls 
+cd 1/
+ls 
+cd 
+pwd   
+
+
+
+
+ctrl+alt+t 
+ls 
+cd Music/
+ls 
+cd 1/
+ls
+cd -                           /home/administor/Music/folderone
+cd -                           /home/administor/Music/folderone/ 1 
+
+
+ctrl+alt+t 
+ls 
+cd Music/ 
+ls 
+cd folderone/ 
+ls 
+cd 1/ 
+ls 
+cd --                           home/administor
+
+ctrl alt t 
+ls 
+cd Music/ 
+ls 
+cd folderone/
+ls 
+ccd 1/ 
+ls 
+cd /                           /home/administrator/
