@@ -21,4 +21,23 @@ ctrl + e
 
 
 
-10CE 
+=> Find used commands again 
+ctrl+r 
+enter (if you wnat to use )
+ctrl + g (if you want to cancle )
+
+
+=>Command Callback 
+
+Press up arrow key (callback )
+Press down arrow key (callback)
+!!                     (callback last command and run again)
+history                 (see all commands history)
+historys                (see last 5 commands history )
+history -c              (clear all history)
+
+=>wget 
+wget https://www.nawpic.com/media/2020/cute-dog-nawpic-16-e1609618136426.jpg
+
+
+=>continure .....
