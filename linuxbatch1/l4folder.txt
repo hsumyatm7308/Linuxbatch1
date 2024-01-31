@@ -39,7 +39,6 @@ cp -r myfolder8 yourfolder8
 cp -r myfolder9 yourfolder9
 cp -r myfolder8 myfolder9 
 cp -r yourfolder8 yourfolder9/myfolder10 
-cp -r yourfolder8 yourfolder9/yourfolder10 
 
 
 18CP 
