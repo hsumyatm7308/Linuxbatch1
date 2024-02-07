@@ -1,0 +1,128 @@
+=>file 
+
+=>Indentifying Linux File Types 
+
+-                     = Regular File 
+d                     = Directory 
+c                     = Character Device File 
+s                     = Socket File 
+p                     = named pipe 
+l                     = Symbolic Link 
+
+
+-------------------------------------------------
+
+=> Create File 
+touch l5sample.txt 
+
+=>Create & Edit File   (cat = concatenate)
+cat > l5example.txt 
+
+echo > "Hello Guys" > l5eg.txt 
+cat l5eg.txt 
+echo "Hello Ladies..." > l5eg.txt
+cat l5eg.txt 
+
+
+
+
+
+
+hello sir...
+what are you doing 
+ctl+d 
+
+
+=>REad File 
+cat l5example.txt   ( display 1 to all )
+(or)
+head l5example.txt   (display 1 to 10 )
+head -5 l5example.txt   (display 1 to 5 )
+(or)
+tail l5example.txt   (display 15 to 6 )
+tail -5 l5example.txt   (display 15 to 11 )
+
+
+=>Check file status 
+stat l5example.txt 
+
+=>Check file type 
+file l5example.txt 
+
+=>Update File 
+
+=>vim editor 
+sudo apt install vim 
+vim filename.fileformat   
+
+:q  =>  exit from empty page 
+:qa  =>  exit from overwite page with no saved = quit all buffers without a warning 
+
+
+overwite  some text 
+ctrl+c   
+:qa      (no save)
+
+vim l5example.txt (or) vi 
+i =  to write and auto cursor
+what are you doing 16
+ctrl+c 
+:wq       (saved  |  wq = write & quit)
+
+
+=>nano editor (System Default App)
+nano filename.format 
+
+nano l5example.txt 
+what are you doing 18
+ctl+x 
+y (file save & exit)
+enter 
+
+
+=>gedit editor (System Default App - Text Editor )
+gedit filename.format
+
+sudo apt install gedit 
+gedit l5example.txt 
+
+
+
+=>Rename File 
+mv l5example.txt  l5exampletext.txt  
+
+=>Remove File 
+rm -i l5exampletext.txt  ( with informantion before you delete y/n )
+rm -v l5sample.txt        ( show message after delete )
+rm -rf l5sample.txt 
+
+rm myfolder8   ( can't delete folder )
+rm -rf myfolder8   (can)
+
+
+=>Copy File 
+touch l5sample.txt 
+cp -r l5sample.txt l5samplebackup.txt 
+cp -r l5samplebackup.txt yourfolder8 
+cp -r l5sample.txt yourfolder8/ 
+cp -r l5sample.txt yourfolder9/myfolder10
+
+
+
+=>Move File 
+mv l5sample.txt myfolder9/myfolder8 
+mv yourfolder8/l5samplebackup.txt myfolder9/myfolder8
+
+
+=>Move File & Rename File same time 
+mv yourfolder8/l5sample.txt myfolder9/myfolder10/l5samplebackup2.txt 
+
+
+
+ls 
+ls -l   ( l = list)
+ls -lh  ( h = human format)
+ls -lh | head     ( | is diffraitiate files  )  
+ls -lh | head -3 
+ls -lh | tail 
+ls -lh | tail -2

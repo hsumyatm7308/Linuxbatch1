@@ -9,15 +9,3 @@ zip allfiles.zip *
 
 
 =>Unzip 
-mkdir -p myzip 
-cp -r allfiles.zip myzip/ 
-cd myzip 
-ls 
-du -h 
-du -h allfiles.zip
-unzip allfiles.zip 
-
-
----------------------------------------------
-
-
