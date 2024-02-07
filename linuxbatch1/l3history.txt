@@ -33,11 +33,39 @@ Press up arrow key (callback )
 Press down arrow key (callback)
 !!                     (callback last command and run again)
 history                 (see all commands history)
-historys                (see last 5 commands history )
+!2006                   ( callback history form commands history and run again )
+!2006:p                 ( get command from commands history just print )
+history  5              (see last 5 commands history )
 history -c              (clear all history)
 
 =>wget 
 wget https://www.nawpic.com/media/2020/cute-dog-nawpic-16-e1609618136426.jpg
 
 
-=>continure .....
+=>
+ctl+alt+t 
+ls 
+ls -l 
+ls -a 
+ls -l -a 
+ls -l -a 
+ls -la    or   ls -al 
+ls -lah   or    ls -alh 
+
+cat .bash_history    ( to watch command history )
+vim .bash_history
+ctrl+c 
+:qa 
+
+
+=>Ignore Sapce 
+ls -l -a 
+history 
+  ls -la 
+history 
+cd 
+cd 
+cd 
+cd 
+cd 
+history (if type many times , history recorded only one time )

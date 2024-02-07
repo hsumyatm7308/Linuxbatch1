@@ -1,0 +1,11 @@
+=> Zip 
+zip l1samplezip.zip l1intro.txt 
+zip l5sample.zip l5example.txt l5file.txt l5sample.txt 
+zip l3sample.zip l3history.txt l4folder.txt  myfolder9 yourfolder8
+zip allfiles.zip *   
+
+
+
+
+
+=>Unzip 

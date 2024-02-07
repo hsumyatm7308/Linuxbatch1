@@ -18,6 +18,16 @@ touch l5sample.txt
 =>Create & Edit File   (cat = concatenate)
 cat > l5example.txt 
 
+echo > "Hello Guys" > l5eg.txt 
+cat l5eg.txt 
+echo "Hello Ladies..." > l5eg.txt
+cat l5eg.txt 
+
+
+
+
+
+
 hello sir...
 what are you doing 
 ctl+d 
@@ -109,4 +119,10 @@ mv yourfolder8/l5sample.txt myfolder9/myfolder10/l5samplebackup2.txt
 
 
 
-31FE 
+ls 
+ls -l   ( l = list)
+ls -lh  ( h = human format)
+ls -lh | head     ( | is diffraitiate files  )  
+ls -lh | head -3 
+ls -lh | tail 
+ls -lh | tail -2
