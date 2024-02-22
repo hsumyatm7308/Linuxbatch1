@@ -1,0 +1,22 @@
+=>tree (need to instatll)
+
+sudo apt instatll tree 
+
+ls -l 
+tree 
+
+cd myzip 
+ls -l
+tree 
+
+
+tree -d = List directoreis only (folder only)
+
+tree -C = colorize output 
+tree --color = colorize output
+
+ls --color    = colorize output         (for core cmd)
+
+
+
+-------------------------------------

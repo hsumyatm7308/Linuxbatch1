@@ -119,10 +119,19 @@ mv yourfolder8/l5sample.txt myfolder9/myfolder10/l5samplebackup2.txt
 
 
 
+
+=>Show Files
 ls 
-ls -l   ( l = list)
-ls -lh  ( h = human format)
-ls -lh | head     ( | is diffraitiate files  )  
-ls -lh | head -3 
+ls -l               ( l = long listing, display lots of informantion)
+ls -lh              ( h = display file size in a human-readable format)
+ls -lh | head       ( | is diffraitiate files  )  
+ls -lh | head -3    Pipe ( | )
 ls -lh | tail 
 ls -lh | tail -2
+ls -lF               (-F = Distiguish directoreis and files in linux)
+
+ls -lS               (-S -sort files by file size, biggest to smallest in size)
+ls -lt               (list order by time , z to a )
+ls -l --full-time   ( show by full time )
+
+21FF

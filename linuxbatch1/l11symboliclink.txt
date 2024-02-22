@@ -1,0 +1,104 @@
+=> Symbolic link 
+
+ls -l 
+mkdir -p l11folder 
+ls -l 
+cd l11folder 
+echo "Hello sir > file0.txt 
+
+
+ln = link or create link 
+s = symbolic 
+ls -s refreencefolder newshotketfolder
+
+ln -s l11folder l11shortcut
+
+ls -l 
+cd l11shortketfolder
+ls -l 
+cd file0.txt
+
+
+cd l11folder
+echo "Hello World" > file1.txt
+ls
+
+echo "Hello Earth" > file2.txt 
+ls 
+
+
+cd - 
+cd l11folder 
+ls 
+cat file2.txt 
+
+
+
+=====================
+
+
+=>Remove Symboliclink folder 
+
+cd - 
+rm -rf l11shortcut
+ls -l 
+cd l11folder
+ls 
+
+
+
+--------------------------
+
+=>REmove Original folder 
+
+cd - 
+ln -s l11folder
+ls 
+
+
+cd - 
+rm -rf l11folder
+ls -l 
+
+
+cd l11shortcut 
+ls 
+
+cd - 
+rm -rf l11folder 
+ls -l 
+
+cd l11shortcut    (can't oopen, cuz original folder deleted)
+rm -rf l11shortcut
+
+
+------
+
+
+= In Different Folder 
+
+mkdir -p l11folder
+cd l11folder
+echo "Hello sir" > file0.txtls 
+cat file0.txt
+
+cd - 
+ls 
+cd Desktop
+ls -l 
+
+
+ln -s ~/Documents/WDF/linux/linuxbatch1/l11folder l11shortcut
+rm -rf l11shortcut
+
+
+(or)
+
+
+ln -s l11folder ~/Desktop/l11shortcut
+cd 
+ls 
+cd Desktop 
+ls -l 
+cd l11folder       (not working cuz link was l11shortcut -> l11folder)
+ln -s ~/Documents/WDF/linux/linuxbatch1/l11folderl11folder ~/Desktop/l11shortcut
