@@ -1,0 +1,153 @@
+sudo su 
+apt-get update 
+whoami 
+exit 
+
+
+
+=> Setpassword or Changing root's password 
+sudo passwd root 
+new password : 123456789
+return new password : 123456789 
+
+sudo -s 
+
+
+=>Login as Root User 
+=Method 1 
+sudo -s 
+whoami 
+exit
+
+
+=Method 2 
+su -     root@hsu-myat-moe-1-0:~# 
+password : 123456789 
+whoami 
+su hsu-myat-moe  
+exit 
+
+
+=Method 3 
+su     // root@hsu-myat-moe-1-0:/home/hsu-myat-moe# 
+whoami 
+password : 123456789 
+exit 
+
+
+=>Changing Password of Current User 
+su 
+password :  123456789 
+whoami 
+
+passwd 
+Current password : 123456789
+New password : 123456789 
+
+=> Create New User Account 
+Method 1 
+sudo useradd  user1   ( if you build new user, it doen't build that new user folder)
+
+Method 2 
+sudo useradd user2 -m  ( if You build new user, it Create that new user folder  ) ( cd /, cd home , ls = you will see user2 folder )
+
+
+
+=>Display all users 
+compgen -u                  (only username)
+getent passwd     (or) cat /etc/passwd (all info)
+id                     (current login group detail info)
+id user1           (single user group info )
+
+=>Set new user password 
+sudo passwd user1 
+new password : 123456789 
+return new password : 123456789 
+
+sudo passwd user2
+new password : 123456789 
+return new password : 123456789 
+
+sudo passwd user3 
+new password : 123456789 
+return new password : 123456789 
+
+=>Switch user in terminal 
+su user2 
+password : 123456789 
+whoami 
+exit 
+
+
+
+
+
+
+ls -l 
+su user2 
+password : 123456789 
+whoami 
+cd / 
+ls 
+cd home 
+ls -l 
+cd administrator    //error can't access 
+cd user2            //error can't access 
+cd user3 
+mkdir userfolder3 
+echo "Hello" > file0.txt 
+ls 
+exit 
+
+
+
+=> Delete User 
+=Method 1 
+sudo deluser user2  (it delete only user without user file and directory)
+
+=Method 2 
+sudo deluser --remove-home user3 
+
+compgen -u 
+cd / 
+ls 
+cd home 
+ls -l 
+
+
+
+
+sudo useradd user1  (without message/ without password / without info) 
+compgen -u 
+
+sud adduser user2  (with message/ with password / with info)
+compgen -u 
+
+
+sudo adduser user3 -m 
+compgen -u 
+sudo password = 123456789 
+retype new password = 123456789
+su user3 
+password = 123456789 
+whoami 
+exit 
+whoami
+
+=>Lock or Unlcak user password 
+sud passwd -l user3    (Lock) 
+sudo passwd -u user3   (Unlock)
+
+=su user3 
+sud passwd -l user3    (Lock) 
+password = 123456789      (su: Authentication failture)
+whoami 
+exit 
+whoami 
+
+=su user3 
+sudo passwd -u user3   (Unlock)
+password = 123456789      (su: Authentication failture)
+whoami 
+exit 
+whoami 
