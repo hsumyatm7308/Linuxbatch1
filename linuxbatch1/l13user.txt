@@ -151,3 +151,52 @@ password = 123456789      (su: Authentication failture)
 whoami 
 exit 
 whoami 
+
+
+
+=>Rename User 
+compgen -u 
+sudo useradd user4 -m           //create user 
+sudo passwd user4               // create password 
+new password = 123456789 
+retry new password = 123456789 
+
+
+whoami 
+cd / 
+ls 
+cd home 
+ls -l 
+cd 
+
+su user4 
+password = 123456789 
+whoami
+exit 
+whoami
+
+=> Method 1 ( user name changed but home/user4 directory will not change)
+sudo usermod -l user40 user4 
+=>Method 2   ( user name changed but home/user4 directory will change in same time )
+sudo usermod -l user40 -d /home/user50 -m user5
+
+
+cd / 
+ls 
+cd home
+ls -l 
+cd 
+
+
+su user40 
+password = 123456789 
+whoami 
+exit 
+whoami
+
+
+su user50 
+password = 123456789 
+whoami 
+exit 
+whoami
